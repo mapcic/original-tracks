@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext');
+
+/* Basic */
+html, body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	color: rgba(40,40,40,1);
+	height: 100%;
+	line-height: 1.55;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	background-color: snow;
+}
+
+h1 {
+	font-size: 2.3rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.7rem;
+	font-weight: 400;
+}
+
+.navigation {
+	background-color: rgba(0,44,123, 1);
+}
+
+.navbar-toggler {
+	padding: 0;
+}
+
+.navbar-nav {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.nav-item {
+	padding: 5px;
+}
+
+.nav-link:hover {
+	color: rgba(248,167,13,1);
+}
+
+.callback-link {
+	color: #fff;
+}
+
+.callback-link:hover {
+	color: rgba(248,167,13,1);
+}
+
+.navbar-text {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+
+.description {
+	color: #fff;
+	border-left: 1px solid #fff;
+	padding-left: 15px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#promo {
+	color: snow;
+	font-size: 16px;
+	padding: 60px 0;
+	background: 
+	linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)),
+	snow url('../img/big/magic_tracks_01.jpg') center center no-repeat;
+	background-size: cover;
+	
+}
+
+#promo p {
+	color: rgba(248,167,13,1);
+}
+
+.promo-profit {
+	font-size: 16px;
+}
+
+.promo-list {
+	color: rgba(248,167,13,1);
+	list-style-image: url('../img/icons/check-mark.png');
+}
+
+#features {
+	background-image: url('../img/small/patterns/pattern2.png');
+	padding: 60px 0;
+	font-size: 16px;
+	background-color: rgba(248,127,13,1);
+	color: #fff;
+}
+
+#video {
+	padding: 60px 0;
+}
+
+#packages {
+	background-image: url('../img/small/patterns/pattern2.png');
+	padding: 60px 0;
+	font-size: 16px;
+}
+
+#addition {
+	padding: 60px 0;
+	font-size: 16px;
+}
+
+#reviews {
+	font-size: 16px;
+	padding: 60px 0;
+	background: url('../img/small/patterns/pattern1.png');
+}
+
+.carousel-item {
+	padding: 50px;
+}
+
+#delivery {
+	padding: 60px 0;
+	font-size: 16px;
+}
+
+#footer {
+	background-color: rgba(0,44,123, 1);
+	padding: 10px 0;
+}
+
+.form-control {
+	padding: 20px;
+}
+
+.form-control:focus {
+	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.button {
+	background-color: rgba(255, 57, 30, 1);
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding: 15px 30px;
+	-webkit-box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+	box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+}
+
+.button:hover {
+	color: #fff;
+	background-color: rgba(235, 57, 30, 1);
+}
+
+.button:focus {
+	-webkit-box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+	box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+	color: #fff;
+	text-decoration: none;
+}
+
+.button:active {
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	-webkit-transform: translateY(4px);
+	        transform: translateY(4px);
+}
+
+.button:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.package-button {
+	padding: 10px 30px;
+	border-radius: 5px;
+	background-color: rgba(255, 57, 30, 1);
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+	box-shadow:
+	0 4px 0 0 rgba(0, 0, 0, 0.25),
+	0 4px 0 0 rgba(255, 57, 30, 1);
+}
+
+.package-button:hover {
+	color: #fff;
+	background-color: rgba(235, 57, 30, 1);
+}
+
+.card-header {
+	font-size: 2rem;
+	font-weight: 700;
+	border-radius: 9px;
+}
+
+.card-footer p {
+	font-size: 2rem;
+}
+
+.card {
+	border: 0;
+	border-radius:9px;
+}
