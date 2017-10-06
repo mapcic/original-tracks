@@ -138,9 +138,19 @@ h3 {
 	padding: 50px;
 }
 
+#how-we-work {
+	padding: 60px 0;
+}
+
 #delivery {
 	padding: 60px 0;
 	font-size: 16px;
+	background: #fff url('../img/small/patterns/pattern2.png');
+	color: #fff;
+}
+
+#questions {
+	padding: 60px 0;
 }
 
 #footer {
@@ -235,3 +245,9 @@ h3 {
 	border: 0;
 	border-radius:9px;
 }
+
+.modal-content {
+	box-shadow: 0 0 10px 4px rgba(0,0,0,.5);
+}
+
+/* media */
