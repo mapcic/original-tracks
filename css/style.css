@@ -11,7 +11,6 @@ html, body {
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
-	background-color: snow;
 }
 
 h1 {
@@ -20,7 +19,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 2.7rem;
 	font-weight: 400;
 }
 
@@ -250,4 +249,29 @@ h3 {
 	box-shadow: 0 0 10px 4px rgba(0,0,0,.5);
 }
 
+.form-check-input {
+	font-size: 12px;
+}
+
 /* media */
+@media all and (max-width: 990px) {
+	p {
+		font-size: 1rem;
+	}
+
+	.button {
+		font-size: 1rem;
+	}
+	
+	h2 {
+		font-size: 2.3rem;
+	}
+
+}
+
+@media all and (max-width: 540px) {
+	.button {
+		font-size: 0.75rem;
+
+	}
+}
